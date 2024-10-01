@@ -37,5 +37,7 @@ public class switch_statement {
 		case 5: System.out.println("You ordered Fries!");        
 		}
 	}
-
+	}
 }
+}
+	
