@@ -1,4 +1,4 @@
-package com.bptn.course_07_oop;
+package com.bptn.course._07_oop;
 
 class Department {
 	
