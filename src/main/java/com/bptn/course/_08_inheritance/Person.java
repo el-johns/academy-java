@@ -3,12 +3,12 @@ package com.bptn.course._08_inheritance;
 public class Person {
 	
 	//Instance attributes
-	private String name;
-	private int age;
+	protected String name;
+	protected int age;
 	
 	
 	//Constructor - called when an object/instance of a class is created
-	public Person() { //Using default constructor (no parameters)
+	public Person() { //Default constructor (no parameters)
 		name = "Unknown Name";
 		age = 0;
 	}
@@ -17,6 +17,8 @@ public class Person {
 		this.name = name;
 		this.age = age;
 	}
+	
+	//Getters and Setters
 	public String getName() {
 		return name;
 	}
@@ -28,6 +30,14 @@ public class Person {
 	}
 	public void setAge(int age) {
 		this.age = age;
+	}
+	
+	public void display() {
+		System.out.println(getName() + " is " + getAge() + " years old ");
+	}
+	
+	public String toString() {
+		return "This is a learning process";
 	}
 
 }
